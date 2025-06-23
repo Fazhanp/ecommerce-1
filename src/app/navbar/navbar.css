@@ -1,0 +1,109 @@
+/* Navbar Background */
+.premium-navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+/* Brand Name */
+.premium-navbar .navbar-brand span {
+  color: #ffffff !important;
+}
+
+/* Base Nav Links */
+.nav-link-custom {
+  position: relative;
+  color: #ffffff !important;           /* Default: white */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding-bottom: 6px;
+}
+
+/* Underline Effect */
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #fbd206;                /* Yellow underline */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+/* Hover Effects */
+.nav-link-custom:hover {
+  color: #fbd206 !important;          /* Hover color: yellow */
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+/* Active Link (same as hover) */
+.active-link {
+  color: #fbd206 !important;
+  font-weight: 600;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+.nav-link-custom::after {
+  background: #d4af37;  /* Elegant Gold */
+}
+
+.nav-link-custom:hover {
+  color: #d4af37 !important;
+}
+
+.active-link {
+  color: #d4af37 !important;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+.premium-navbar .btn-dark:hover {
+  background-color: #d4af37;
+  color: #0f2027;
+  border-color: #d4af37;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
+  }
+  to {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+  }
+}
+.cart-icon {
+  transition: all 0.3s ease;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.cart-icon:hover {
+  color: #d4af37; /* Elegant gold */
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.7);
+}
+
+.cart-icon .badge {
+  font-size: 0.65rem;
+  padding: 3px 6px;
+  font-weight: 500;
+}
+.nav-link {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107; /* yellow accent for Bazario */
+  text-decoration: underline;
+}
+

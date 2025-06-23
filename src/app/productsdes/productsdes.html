@@ -1,0 +1,13 @@
+
+<section>
+<div class="card-container">
+
+@for(item of products; track item.id) {
+   <div class="card">
+      <img src="{{item.image}}" alt="product image" class="product-img" height="200" width="200">
+      <h2> {{item.title}}</h2>
+      <p>{{item.price}}</p>
+   </div>
+}
+</div>
+</section>

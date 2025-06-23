@@ -1,0 +1,66 @@
+.about-us-section {
+  background-color: #3d3d43;
+  color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.section-title span {
+  color: #ffc107;
+}
+
+.section-subtitle {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-image {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease;
+}
+
+
+.highlight-text {
+  color: #ffcc00;
+  font-weight: 600;
+}
+
+.info-card {
+  background-color: #43694f;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #f1f1f1;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(255, 204, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
+.brand-logos img {
+  max-height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.brand-logos img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}

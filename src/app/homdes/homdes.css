@@ -1,0 +1,63 @@
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    background-color: #0f2027;
+  }
+
+/* Section styling for card area */
+.product-section {
+  background: #0b8ba2; /* Neutral light grey for contrast with white cards */
+  padding: 3rem 0;
+}
+
+.product-card {
+  max-width: 100%;
+  font-size: 0.9rem;
+  margin: auto;
+}
+
+.product-card img {
+  height: 240px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.product-card .card-body {
+  padding: 0.8rem;
+}
+
+.product-card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.product-card .card-text {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.product-card .btn {
+  font-size: 0.85rem;
+  padding: 0.45rem 0.8rem;
+}
+
+.product-card .btn:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.15);
+}
